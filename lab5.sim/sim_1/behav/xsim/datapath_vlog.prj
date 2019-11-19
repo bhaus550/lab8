@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/adder.v" \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v" \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v" \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v" \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v" \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v" \
+"//vmware-host/Shared Folders/Desktop/lab5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
